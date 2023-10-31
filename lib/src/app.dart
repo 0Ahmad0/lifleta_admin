@@ -14,9 +14,7 @@ class AdminApp extends StatelessWidget {
       designSize: Size(360, 720),
       builder: (context, child) => MaterialApp(
         theme: ThemeManager.myTheme,
-        // home: WelcomePage(),
-        // home: DisplayEmployeePage(),
-        home: AddEmployeePage(),
+        home: WelcomePage(),
       ),
     );
   }
