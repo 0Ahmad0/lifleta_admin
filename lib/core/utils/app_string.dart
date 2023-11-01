@@ -11,6 +11,10 @@ class AppString {
   static const sexText = 'Sex';
   static const dateOfBirthText = 'Date Of birth';
   static const List<String> sexListText = ['male','female'];
+  static const String profileText = 'Profile';
+  static const String logoutText = 'Logout';
+  static const String deleteThisEmployee = 'Delete This Employee ? ';
+  static const String areYouSure = 'Are You Sure?';
 
 
 }

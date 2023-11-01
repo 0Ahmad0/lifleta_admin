@@ -11,10 +11,9 @@ class AdminApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: Size(360, 720),
       builder: (context, child) => MaterialApp(
         theme: ThemeManager.myTheme,
-        home: WelcomePage(),
+        home: DisplayEmployeePage(),
       ),
     );
   }
