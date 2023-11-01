@@ -25,6 +25,7 @@ class LogoSection extends StatelessWidget {
         FadeInUp(
             child: Text(
               AppString.ayaText,
+              textAlign: TextAlign.center,
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                 fontSize: 24

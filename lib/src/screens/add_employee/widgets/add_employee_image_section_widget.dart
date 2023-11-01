@@ -30,6 +30,7 @@ class AddEmployeeImageSection extends StatelessWidget {
           FadeInDown(
             child: Text(
               AppString.addNewEmployeeText,
+              textAlign: TextAlign.center,
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           )

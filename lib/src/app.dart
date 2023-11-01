@@ -13,7 +13,7 @@ class AdminApp extends StatelessWidget {
     return ScreenUtilInit(
       builder: (context, child) => MaterialApp(
         theme: ThemeManager.myTheme,
-        home: DisplayEmployeePage(),
+        home: WelcomePage(),
       ),
     );
   }

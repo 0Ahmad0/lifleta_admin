@@ -1,6 +1,7 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lifleta_admin/core/utils/app_string.dart';
 import 'package:lifleta_admin/core/utils/color_manager.dart';
 import 'package:lifleta_admin/core/utils/values_manager.dart';
@@ -100,7 +101,7 @@ class EmployeeItem extends StatelessWidget {
                   dialogType: DialogType.warning,
                   animType: AnimType.rightSlide,
                   title: AppString.areYouSure,
-                  width: MediaQuery.of(context).size.width / 3,
+                  width: MediaQuery.of(context).size.width > 400?size / 2 : null,
                   desc: AppString.deleteThisEmployee,
                   btnCancelOnPress: (){},
                   btnOkOnPress: () {

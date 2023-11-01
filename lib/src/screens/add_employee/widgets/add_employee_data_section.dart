@@ -176,6 +176,7 @@ class _AddEmployeeDataSectionState extends State<AddEmployeeDataSection> {
                   height: AppSize.s20,
                 ),
                 DropdownButtonFormField(
+                  icon: Icon(Icons.keyboard_arrow_down_rounded),
                   decoration: InputDecoration(
                     contentPadding: EdgeInsets.symmetric(
                       horizontal: 14
@@ -191,7 +192,7 @@ class _AddEmployeeDataSectionState extends State<AddEmployeeDataSection> {
                     fillColor: ColorManager.white,
                   ),
                   validator: (value){
-                    if(value!.isEmpty){
+                    if(value == null){
                       return 'Filed is required*';
                     }
                   },
